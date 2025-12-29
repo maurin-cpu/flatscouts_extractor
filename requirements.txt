@@ -1,0 +1,7 @@
+llama-cloud-services
+llama-index-llms-openai
+requests
+PyMuPDF
+Pillow
+Flask
+

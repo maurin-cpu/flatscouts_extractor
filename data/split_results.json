@@ -1,0 +1,174 @@
+{
+  "liegenschaft.PDF": [
+    {
+      "name": "Mietvertrag_1",
+      "category": "Mietvertrag",
+      "pages": [
+        1,
+        2
+      ],
+      "confidence_category": "high"
+    },
+    {
+      "name": "Rechnung_1",
+      "category": "Rechnung",
+      "pages": [
+        3,
+        4
+      ],
+      "confidence_category": "high"
+    },
+    {
+      "name": "Rechnung_2",
+      "category": "Rechnung",
+      "pages": [
+        5,
+        6
+      ],
+      "confidence_category": "high"
+    },
+    {
+      "name": "Rechnung_3",
+      "category": "Rechnung",
+      "pages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "confidence_category": "high"
+    },
+    {
+      "name": "Mietvertrag_2",
+      "category": "Mietvertrag",
+      "pages": [
+        12
+      ],
+      "confidence_category": "high"
+    },
+    {
+      "name": "Mietvertrag_3",
+      "category": "Mietvertrag",
+      "pages": [
+        13
+      ],
+      "confidence_category": "high"
+    },
+    {
+      "name": "Rechnung_4",
+      "category": "Rechnung",
+      "pages": [
+        14,
+        15
+      ],
+      "confidence_category": "high"
+    },
+    {
+      "name": "uncategorized_1",
+      "category": "uncategorized",
+      "pages": [
+        16
+      ],
+      "confidence_category": "high"
+    },
+    {
+      "name": "Rechnung_5",
+      "category": "Rechnung",
+      "pages": [
+        17,
+        18
+      ],
+      "confidence_category": "high"
+    },
+    {
+      "name": "Rechnung_6",
+      "category": "Rechnung",
+      "pages": [
+        19,
+        20
+      ],
+      "confidence_category": "high"
+    },
+    {
+      "name": "Rechnung_7",
+      "category": "Rechnung",
+      "pages": [
+        21,
+        22
+      ],
+      "confidence_category": "high"
+    },
+    {
+      "name": "Mietvertrag_4",
+      "category": "Mietvertrag",
+      "pages": [
+        23,
+        24,
+        25
+      ],
+      "confidence_category": "high"
+    },
+    {
+      "name": "Übergabeprotokoll_1",
+      "category": "Übergabeprotokoll",
+      "pages": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "confidence_category": "high"
+    },
+    {
+      "name": "uncategorized_2",
+      "category": "uncategorized",
+      "pages": [
+        36
+      ],
+      "confidence_category": "medium"
+    },
+    {
+      "name": "Übergabeprotokoll_2",
+      "category": "Übergabeprotokoll",
+      "pages": [
+        37
+      ],
+      "confidence_category": "high"
+    },
+    {
+      "name": "Übergabeprotokoll_3",
+      "category": "Übergabeprotokoll",
+      "pages": [
+        38,
+        39
+      ],
+      "confidence_category": "high"
+    },
+    {
+      "name": "Bewerbung_1",
+      "category": "Bewerbung",
+      "pages": [
+        40
+      ],
+      "confidence_category": "high"
+    },
+    {
+      "name": "Mietvertrag_5",
+      "category": "Mietvertrag",
+      "pages": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "confidence_category": "high"
+    }
+  ]
+}
