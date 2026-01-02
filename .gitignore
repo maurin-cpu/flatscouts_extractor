@@ -24,8 +24,9 @@ logs/
 .DS_Store
 Thumbs.db
 
-# Data files (optional - uncomment if you don't want to track PDFs)
-# *.pdf
-# data/
-# data_test/
+# Data files - Testdaten werden nicht getrackt
+*.pdf
+*.PDF
+data/
+data_test/
 

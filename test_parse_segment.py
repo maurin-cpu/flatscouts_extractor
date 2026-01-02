@@ -11,16 +11,46 @@ TEST_PDF = "liegenschaft.PDF"
 TEST_PAGE = 40
 
 # LlamaParse Parameter - direkt anpassbar
+
 parser = LlamaParse(
-    parse_mode="parse_page_with_agent",  # parse_page_with_agent, parse_page_with_layout_agent, parse_document_with_agent
-    model="openai-gpt-4-1-mini",  # openai-gpt4o, openai-gpt-4-1, openai-gpt-4o-mini
+    parse_mode="parse_page_with_agent",
+    model="openai-gpt-4-1-mini",
     high_res_ocr=True,
-    adaptive_long_table=True,
-    outlined_table_extraction=True,
-    output_tables_as_HTML=False,
     language="de",
     api_key="llx-IWbVsP0maYq3OvP4VJg2MjM8jxqciXHA9Gx1SLYRB3O2rr8W",
 )
+'''
+parser = LlamaParse(
+    tier="premium",
+    api_key="llx-IWbVsP0maYq3OvP4VJg2MjM8jxqciXHA9Gx1SLYRB3O2rr8W",
+)
+
+parser = LlamaParse(
+    preset="invoice",
+    api_key="llx-IWbVsP0maYq3OvP4VJg2MjM8jxqciXHA9Gx1SLYRB3O2rr8W",
+)
+
+
+parser = LlamaParse(
+    parse_mode="parse_page_with_agent",  # The parsing mode
+    model="anthropic-sonnet-4.0",  # The model to use
+    high_res_ocr=True,  # Whether to use high resolution OCR (slower but more precise)
+    adaptive_long_table=True,  # Adaptive long table. LlamaParse will try to detect long table and adapt the output
+    outlined_table_extraction=True,  # Whether to try to extract outlined tables
+    output_tables_as_HTML=False,  # Whether to output tables as HTML in the markdown output
+    api_key="llx-IWbVsP0maYq3OvP4VJg2MjM8jxqciXHA9Gx1SLYRB3O2rr8W",
+)
+
+parser = LlamaParse(
+    parse_mode="parse_page_with_agent",
+    model="openai-gpt-4-1-mini",
+    high_res_ocr=True,
+    language="de",
+    api_key="llx-IWbVsP0maYq3OvP4VJg2MjM8jxqciXHA9Gx1SLYRB3O2rr8W",
+    description="Document-Agent mit GPT-4o (ganzes Dokument-Kontext)"
+)
+
+'''
 
 def extract_page(pdf_path: Path, page_num: int) -> Path:
     """Extrahiert eine Seite aus dem PDF"""
